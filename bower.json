@@ -1,0 +1,11 @@
+{
+  "name": "bukmarkz",
+  "version": "0.0.1",
+  "homepage": "https://github.com/samsel/bukmarkz",
+  "authors": [
+    "Sam Selvanathan <sjasel@gmail.com>"
+  ],
+  "description": "a chrome extension to view your bookmarks. (built with angularJS)",
+  "license": "MIT",
+  "private": true
+}
