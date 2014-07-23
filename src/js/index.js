@@ -1,8 +1,12 @@
-var app = angular.module('bukmarkz');
+define(['angular', 'mock'], function (angular, mock) {
 
-app.controller('main', ['$scope',
-  function ($scope) {
+	var app = angular.module('bukmarkz', []);
 
-  $scope.name = "name--";
+	app.controller('main', ['$scope',
+		function ($scope) {
 
-}]);
+
+	}]);
+
+	console.log(mock);
+});
