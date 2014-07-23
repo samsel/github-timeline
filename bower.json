@@ -7,5 +7,8 @@
   ],
   "description": "a chrome extension to view your bookmarks. (built with angularJS)",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.20"
+  }
 }
