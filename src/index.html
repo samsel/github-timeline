@@ -2,11 +2,32 @@
 <html lang='en'>
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">	
 	<title>bukmarkz</title>
 	<meta name='author' content='Samuel Selvanathan'>
+	<link rel='stylesheet' href='../components/ionic/release/css/ionic.css' />
 </head>
 <body ng-app='bukmarkz'>
-	<div ng-controller='main'></div>
+	<ion-pane>
+		<ion-nav-bar animation="nav-title-slide-ios7" 
+             type="bar-positive" 
+             back-button-type="button-icon" 
+             back-button-icon="ion-arrow-left-c">
+         </ion-nav-bar>       
+    	<ion-nav-view animation="slide-left-right"></ion-nav-view>
+	</ion-pane>
 </body>
+<script id="page.html" type="text/ng-template">
+      <ion-view title="Page {{currentPage}}">
+        <ion-content has-header="true" padding="true">
+        <ion-list>
+            <ion-item ng-click="nextPage(bookmark)" ng-repeat="bookmark in bookmarks">
+                {{bookmark.title}}
+            </ion-item>
+        </ion-list>        
+        </ion-content>
+      </ion-view>
+</script>
 <script data-main='js/main' src='../components/requirejs/require.js'></script>
 </html>

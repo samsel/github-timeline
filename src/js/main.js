@@ -7,14 +7,14 @@ define(function () {
     	baseUrl: 'js/',
 
         paths: {
-            'angular': '../../components/angular/angular'
+            'ionic': '../../components/ionic/release/js/ionic.bundle'
         },
 
         useStrict: true,
 
         shim: {
-            'angular': {
-                exports: 'angular'
+            'ionic': {
+                exports: 'ionic'
             }
         }
     });

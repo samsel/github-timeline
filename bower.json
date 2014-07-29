@@ -9,7 +9,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "~1.2.20",
-    "requirejs": "~2.1.14"
+    "requirejs": "~2.1.14",
+    "ionic": "~0.9.27"
+  },
+  "resolutions": {
+    "angular": "1.2.12"
   }
 }
