@@ -1,4 +1,4 @@
-bukmarkz
-========
+github-timeline
+===============
 
-a chrome extension to view your bookmarks. (built with angularJS)
+yet another github timeline
